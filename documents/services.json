@@ -1,0 +1,314 @@
+{
+  "categories": [
+    {
+      "id": "facials",
+      "title": "Facials",
+      "description": "From quick glow to premium tightening — pick based on your skin concern.",
+      "items": [
+        {
+          "id": "fruit-facial",
+          "name": "Fruit Facial",
+          "price": 299
+        },
+        {
+          "id": "aloe-facial",
+          "name": "Aloe Vera Facial",
+          "price": 299
+        },
+        {
+          "id": "haldi-chandan",
+          "name": "Haldi Chandan Facial",
+          "price": 449
+        },
+        {
+          "id": "gold-facial-standard",
+          "name": "Gold Facial",
+          "price": 499,
+          "variantLabel": "Standard"
+        },
+        {
+          "id": "gold-facial-premium",
+          "name": "Gold Facial",
+          "price": 799,
+          "variantLabel": "Premium"
+        },
+        {
+          "id": "diamond-facial-standard",
+          "name": "Diamond Facial",
+          "price": 599,
+          "variantLabel": "Standard"
+        },
+        {
+          "id": "diamond-facial-premium",
+          "name": "Diamond Facial",
+          "price": 799,
+          "variantLabel": "Premium"
+        },
+        {
+          "id": "whitening-facial",
+          "name": "Whitening Facial",
+          "price": 899
+        },
+        {
+          "id": "wine-facial",
+          "name": "Wine Facial",
+          "price": 899
+        },
+        {
+          "id": "sherials-facial",
+          "name": "Sherials Facial",
+          "price": 1399
+        },
+        {
+          "id": "shehnaz-facial",
+          "name": "Shehnaz Facial",
+          "price": 1499
+        },
+        {
+          "id": "shehnaz-gold-facial",
+          "name": "Shehnaz Gold Facial",
+          "price": 1999
+        },
+        {
+          "id": "shehnaz-tightening",
+          "name": "Shehnaz Skin Tightening",
+          "price": 1799
+        },
+        {
+          "id": "shehnaz-gold-tightening",
+          "name": "Shehnaz Gold Skin Tightening",
+          "price": 2199
+        },
+        {
+          "id": "raga-facial",
+          "name": "Raga Facial",
+          "price": 799
+        },
+        {
+          "id": "pigmentation-facial",
+          "name": "Pigmentation Facial",
+          "price": 799
+        },
+        {
+          "id": "rahul-phate-facial",
+          "name": "Rahul Phate Facial",
+          "price": 799
+        },
+        {
+          "id": "rahul-phate-polish",
+          "name": "Rahul Phate Skin Polishing",
+          "price": 1199
+        },
+        {
+          "id": "o3-standard",
+          "name": "O3 Facial",
+          "price": 1799,
+          "variantLabel": "Standard",
+          "featured": true
+        },
+        {
+          "id": "o3-premium",
+          "name": "O3 Facial",
+          "price": 2399,
+          "variantLabel": "Premium"
+        }
+      ]
+    },
+    {
+      "id": "d-tan",
+      "title": "D-Tan",
+      "description": "Instant de-tan for face, hands and full body.",
+      "items": [
+        {
+          "id": "dtan-face",
+          "name": "D-Tan Face",
+          "price": 199
+        },
+        {
+          "id": "dtan-hands",
+          "name": "D-Tan Hands",
+          "price": 299
+        },
+        {
+          "id": "dtan-full-body",
+          "name": "D-Tan Full Body",
+          "price": 1499
+        }
+      ]
+    },
+    {
+      "id": "bleach",
+      "title": "Bleach",
+      "description": "Herbal, gold and glow options — choose based on your skin sensitivity.",
+      "items": [
+        {
+          "id": "herbal-bleach",
+          "name": "Herbal Bleach",
+          "price": 99
+        },
+        {
+          "id": "gold-bleach",
+          "name": "Gold Bleach",
+          "price": 99
+        },
+        {
+          "id": "vitamin-c",
+          "name": "Vitamin C",
+          "price": 199
+        },
+        {
+          "id": "glow-shiner",
+          "name": "Glow Shiner",
+          "price": 199
+        },
+        {
+          "id": "hand-bleach",
+          "name": "Hand Bleach",
+          "price": 299
+        },
+        {
+          "id": "leg-bleach",
+          "name": "Leg Bleach",
+          "price": 399
+        },
+        {
+          "id": "half-body-bleach",
+          "name": "Half Body Bleach",
+          "price": 999
+        },
+        {
+          "id": "full-body-bleach",
+          "name": "Full Body Bleach",
+          "price": 1499
+        }
+      ]
+    },
+    {
+      "id": "wax",
+      "title": "Wax",
+      "description": "Regular and Rica options for smooth, clean finish.",
+      "items": [
+        {
+          "id": "hand-wax",
+          "name": "Hand Wax",
+          "price": 149
+        },
+        {
+          "id": "half-leg-wax",
+          "name": "Half Leg Wax",
+          "price": 149
+        },
+        {
+          "id": "gold-wax",
+          "name": "Gold Wax",
+          "price": 149
+        },
+        {
+          "id": "aloe-wax",
+          "name": "Aloe Vera Wax",
+          "price": 149
+        },
+        {
+          "id": "rica-hand",
+          "name": "Rica Hand Wax",
+          "price": 349
+        },
+        {
+          "id": "rica-leg",
+          "name": "Rica Leg Wax",
+          "price": 349
+        },
+        {
+          "id": "full-body-wax",
+          "name": "Full Body Wax",
+          "price": 1499
+        }
+      ]
+    },
+    {
+      "id": "mani-pedi",
+      "title": "Manicure & Pedicure",
+      "description": "Clean finish, soft hands and feet.",
+      "items": [
+        {
+          "id": "manicure-classic",
+          "name": "Manicure",
+          "price": 499,
+          "variantLabel": "Classic"
+        },
+        {
+          "id": "pedicure-classic",
+          "name": "Pedicure",
+          "price": 499,
+          "variantLabel": "Classic"
+        },
+        {
+          "id": "manicure-deluxe",
+          "name": "Manicure",
+          "price": 999,
+          "variantLabel": "Deluxe"
+        },
+        {
+          "id": "pedicure-deluxe",
+          "name": "Pedicure",
+          "price": 999,
+          "variantLabel": "Deluxe"
+        }
+      ]
+    },
+    {
+      "id": "spa",
+      "title": "Spa",
+      "description": "Head massage, hair spa, body spa and polishing.",
+      "items": [
+        {
+          "id": "head-massage",
+          "name": "Head Massage",
+          "price": 199
+        },
+        {
+          "id": "head-massage-steam",
+          "name": "Head Massage with Steam",
+          "price": 199
+        },
+        {
+          "id": "hair-spa-basic",
+          "name": "Hair Spa",
+          "price": 499,
+          "variantLabel": "Basic"
+        },
+        {
+          "id": "hair-spa-advanced",
+          "name": "Hair Spa",
+          "price": 799,
+          "variantLabel": "Advanced"
+        },
+        {
+          "id": "hair-spa-loreal",
+          "name": "Hair Spa (L’Oréal)",
+          "price": 999
+        },
+        {
+          "id": "hair-spa-loreal-ampoule",
+          "name": "Hair Spa (L’Oréal) with Ampoule",
+          "price": 1199
+        },
+        {
+          "id": "full-body-massage",
+          "name": "Full Body Massage",
+          "price": 1199
+        },
+        {
+          "id": "body-spa",
+          "name": "Body Spa",
+          "price": 1499
+        },
+        {
+          "id": "body-polishing",
+          "name": "Body Polishing",
+          "price": 2999
+        }
+      ]
+    }
+  ]
+}
