@@ -72,19 +72,20 @@ export default function ContactPage() {
                         </div>
                     </div>
 
-                    {/* Map Embed */}
-                    <div className="bg-surface rounded-2xl h-full min-h-[400px] border border-border flex relative overflow-hidden group">
-                        <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14896.257085732296!2d75.76014458316335!3d21.030113880595304!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd907abcde12345%3A0xabcdef1234567890!2sShree%20Ganesh%20Heights%2C%20Behind%20Datta%20Bakery!5e0!3m2!1sen!2sin!4v1716301234567!5m2!1sen!2sin"
-                            width="100%"
-                            height="100%"
-                            style={{ border: 0, minHeight: "400px" }}
-                            allowFullScreen={true}
-                            loading="lazy"
-                            referrerPolicy="no-referrer-when-downgrade"
-                            className="w-full h-full object-cover grayscale opacity-80 group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-500"
-                        />
-                        <div className="absolute inset-0 pointer-events-none border border-border rounded-2xl"></div>
+                    {/* Directions CTA */}
+                    <div className="bg-surface rounded-2xl border border-border flex flex-col items-center justify-center p-8 md:p-12 text-center h-full min-h-[300px] hover:border-gold/50 transition-colors">
+                        <div className="w-16 h-16 bg-gold/10 text-gold rounded-full flex items-center justify-center mb-6">
+                            <MapPin className="w-8 h-8" />
+                        </div>
+                        <h3 className="text-3xl font-heading font-bold mb-4">Find Your Way</h3>
+                        <p className="text-muted-foreground mb-8 text-lg">
+                            Click below to view our exact location on Google Maps and get real-time directions to the studio.
+                        </p>
+                        <Button size="lg" className="bg-gold text-black hover:bg-gold-2 w-full sm:w-auto" asChild>
+                            <a href={siteConfig.googleMapsLink} target="_blank" rel="noopener noreferrer">
+                                Get Directions to Salon
+                            </a>
+                        </Button>
                     </div>
                 </div>
             </Section>

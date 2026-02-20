@@ -179,15 +179,19 @@ export default function Home() {
               </Button>
             </div>
           </div>
-          <div className="bg-surface rounded-2xl aspect-video border border-border flex items-center justify-center relative overflow-hidden group">
-            <div className="absolute inset-0 bg-black/60 flex items-center justify-center p-6 text-center">
-              <div>
-                <MapPin className="w-12 h-12 text-white/50 mx-auto mb-4 group-hover:text-gold transition-colors" />
-                <p className="text-white/80 max-w-sm">
-                  Google Map integration can be added here with `site.config.json` embed URL.
-                </p>
-              </div>
+          <div className="bg-surface rounded-2xl aspect-video border border-border flex flex-col items-center justify-center p-8 text-center hover:border-gold/30 transition-colors">
+            <div className="w-16 h-16 bg-gold/10 text-gold rounded-full flex items-center justify-center mb-6">
+              <MapPin className="w-8 h-8" />
             </div>
+            <h3 className="text-2xl font-bold mb-4 text-foreground">Need Directions?</h3>
+            <p className="text-muted-foreground mb-8 max-w-sm">
+              Open Google Maps to see our exact location and get real-time directions to our studio.
+            </p>
+            <Button size="lg" className="bg-gold text-black hover:bg-gold-2 w-full sm:w-auto" asChild>
+              <a href={siteConfig.googleMapsLink} target="_blank" rel="noopener noreferrer">
+                Get Directions to Salon
+              </a>
+            </Button>
           </div>
         </div>
       </Section>
